@@ -1,0 +1,2540 @@
+{
+	id: "2B28FD54920AD713"
+	group: "21E4149EE590F522"
+	order_index: 0
+	filename: "ars_nouveau"
+	title: "ars_nouveau"
+	icon: {
+		id: "ars_nouveau:archmage_spell_book"
+		Count: 1b
+		tag: {
+			mode: 0
+			spells: ",touch,harm,break,self,projectile"
+		}
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+	}
+	default_quest_shape: "circle"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.5d
+			y: 0.0d
+			shape: "octagon"
+			id: "3D5DC20CF229736E"
+			tasks: [{
+				id: "12F55DA6DC3E1422"
+				type: "item"
+				item: {
+					id: "ars_nouveau:worn_notebook"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 16.5d
+			y: 1.0d
+			dependencies: ["2D3BACE470F88EEC"]
+			id: "477DDA7D37F4FCD8"
+			tasks: [{
+				id: "6EE5AE65E1D20A6C"
+				type: "item"
+				item: {
+					id: "ars_nouveau:mythical_clay"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			dependencies: ["4E879898BA5DE7EC"]
+			id: "502898244C771694"
+			tasks: [{
+				id: "7C17DFF481652CAE"
+				type: "item"
+				item: {
+					id: "ars_nouveau:magic_clay"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.0d
+			dependencies: ["28F70638C9A0106B"]
+			id: "6B084B77013AE5C8"
+			tasks: [{
+				id: "65C7278457CB6D82"
+				type: "item"
+				item: {
+					id: "ars_nouveau:marvelous_clay"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			dependencies: ["3D5DC20CF229736E"]
+			id: "52142D07C666F6CE"
+			tasks: [{
+				id: "75E3754156C05F70"
+				type: "item"
+				item: {
+					id: "ars_nouveau:mana_gem"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.5d
+			dependencies: ["52142D07C666F6CE"]
+			id: "0B30A635ADD4D180"
+			tasks: [{
+				id: "747299D5B502E949"
+				type: "item"
+				item: {
+					id: "ars_nouveau:arcane_stone"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.5d
+			dependencies: [
+				"52142D07C666F6CE"
+				"0B30A635ADD4D180"
+			]
+			id: "1FB934AD92F2F08A"
+			tasks: [{
+				id: "13503CC502EF791D"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_press"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "14138BD1F8D684A0"
+			tasks: [{
+				id: "4CABD8723A810FD7"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_snare"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "73587C649E7C01CF"
+			tasks: [{
+				id: "77F1F72D23FBE7F0"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_rune"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "16C41E9555189980"
+			tasks: [{
+				id: "5D0A87CDC59AD00A"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_underfoot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "7DE60A3485C492E1"
+			tasks: [{
+				id: "22E8B9850A469C03"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_pull"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -5.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "0AB5F0FA52F319A9"
+			tasks: [{
+				id: "413A150A6A5DE71C"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_toss"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "0504AEA6BD46756E"
+			tasks: [{
+				id: "65016CBFA9D60A36"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_toss"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "4C2BB76A649FE233"
+			tasks: [{
+				id: "0FEEBF4D7ACDAF41"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_craft"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "4D257779BF0421BC"
+			tasks: [{
+				id: "5D359C5DD0A69D42"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_launch"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "134800CF699AFEBA"
+			tasks: [{
+				id: "577B991D9D84B925"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_haste"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -4.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "2087B9BD8954B089"
+			tasks: [{
+				id: "2BC7EF8D7FE738B8"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_aquatic"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "161E19011985BB5F"
+			tasks: [{
+				id: "7BB62AFDE3FA39C3"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_dispel"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "3271D81C70A98BCC"
+			tasks: [{
+				id: "6A82152EBBC3E887"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_delay"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			shape: "pentagon"
+			dependencies: ["3D5DC20CF229736E"]
+			size: 1.5d
+			id: "4E879898BA5DE7EC"
+			tasks: [{
+				id: "01074911DCE23821"
+				type: "item"
+				item: {
+					id: "ars_nouveau:novice_spell_book"
+					Count: 1b
+					tag: {
+						mode: 0
+						spells: ",touch,harm,break,self,projectile"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "38BF3353B0AB6371"
+			tasks: [{
+				id: "3971A283F3794F8F"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_amplify"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "1B29D49CBA704BFA"
+			tasks: [{
+				id: "6B2694170262B674"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_bounce"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -3.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "7C6369903904E144"
+			tasks: [{
+				id: "464610AB5DA656AD"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_leap"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "7297F8CE43749BEF"
+			tasks: [{
+				id: "4644896478EB11A6"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_light"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "42D32750775AA7D4"
+			tasks: [{
+				id: "2422A54A5FE14C17"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_pickup"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "3378571871B09321"
+			tasks: [{
+				id: "09988D2D3D25D2A9"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_gust"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "6FDD4C8B833B4529"
+			tasks: [{
+				id: "7B8A7FDDD84D0DC4"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_place_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "35BDB0D5A1D5FBF6"
+			tasks: [{
+				id: "28654CDA8D991E6D"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_phantom_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "70DBA14B8B0F074D"
+			tasks: [{
+				id: "66AF2126580D4155"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_evaporate"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "1CC4C5DFEFEB3B16"
+			tasks: [{
+				id: "28C70FBAF4FEA762"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_summon_wolves"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "7DEA9CD88574BC09"
+			tasks: [{
+				id: "1BCA6F2D019E425E"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_harvest"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "108134CDE2E2577C"
+			tasks: [{
+				id: "48EF3167218F807D"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_interact"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "0AC8CC40D60EA320"
+			tasks: [{
+				id: "4D6BC90D8ACFB1D6"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_summon_steed"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "102A80249EA004DE"
+			tasks: [{
+				id: "72DFC4849623139C"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_redstone_signal"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -6.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "7A733BCA2DF86AD7"
+			tasks: [{
+				id: "23D6FA2DD3224AA4"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_freeze"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -6.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "506AD1D00083E337"
+			tasks: [{
+				id: "4FFC22194E7B1FF1"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_ignite"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "4518F18F8AB5CA10"
+			tasks: [{
+				id: "3ADEFE8644D2171E"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_sensitive"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -6.0d
+			dependencies: [
+				"13503CC502EF791D"
+				"7C17DFF481652CAE"
+			]
+			id: "7A58F12A23E307C7"
+			tasks: [{
+				id: "4D526F9A23AE2B4D"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_cut"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.5d
+			shape: "hexagon"
+			dependencies: ["502898244C771694"]
+			size: 2.0d
+			id: "28F70638C9A0106B"
+			tasks: [{
+				id: "1BB03A9C58CFCCB9"
+				type: "item"
+				item: {
+					id: "ars_nouveau:apprentice_spell_book"
+					Count: 1b
+					tag: {
+						mode: 0
+						spells: ",touch,harm,break,self,projectile"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 2.5d
+			shape: "octagon"
+			dependencies: ["6B084B77013AE5C8"]
+			size: 2.5d
+			id: "2D3BACE470F88EEC"
+			tasks: [{
+				id: "473E450A107CAB6C"
+				type: "item"
+				item: {
+					id: "ars_nouveau:archmage_spell_book"
+					Count: 1b
+					tag: {
+						mode: 0
+						spells: ",touch,harm,break,self,projectile"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"6B084B77013AE5C8"
+			]
+			id: "142CB977A2B68FDC"
+			tasks: [{
+				id: "6407EB5E25626C53"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_flare"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"6B084B77013AE5C8"
+			]
+			id: "7853814C2E1AA16C"
+			tasks: [{
+				id: "46AB81165AEC3866"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_aoe"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"6B084B77013AE5C8"
+			]
+			id: "642F6A518998B4F7"
+			tasks: [{
+				id: "6CD64D22A4B20041"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_shield"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"6B084B77013AE5C8"
+			]
+			id: "536E876C4FFE3B2C"
+			tasks: [{
+				id: "2CEBA67F7E734D3F"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_duration_down"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"6B084B77013AE5C8"
+			]
+			id: "4ED9D9E2834E1473"
+			tasks: [{
+				id: "0C2AC207BA6A0385"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_pierce"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"6B084B77013AE5C8"
+			]
+			id: "3E6AF6DF595FA38D"
+			tasks: [{
+				id: "1B2BAF421514C6C7"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_extract"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"6B084B77013AE5C8"
+			]
+			id: "32FDD3A546B54742"
+			tasks: [{
+				id: "269C47947D4834F1"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_slowfall"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"6B084B77013AE5C8"
+			]
+			id: "4CD9E34EA7E8514F"
+			tasks: [{
+				id: "0621B162768A7097"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_gravity"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"6B084B77013AE5C8"
+			]
+			id: "6AB80FBFCD00F67F"
+			tasks: [{
+				id: "7279CEFA6FD5D15A"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_fell"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"6B084B77013AE5C8"
+			]
+			id: "7098065FCBF9D79E"
+			tasks: [{
+				id: "07F2EF512F09EC19"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_fortune"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"6B084B77013AE5C8"
+			]
+			id: "2EC54B5B1ABB29C4"
+			tasks: [{
+				id: "40AB20846C9D9777"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_invisibility"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"6B084B77013AE5C8"
+			]
+			id: "2C597BEC64EA36C0"
+			tasks: [{
+				id: "6EA832DE4BE9B2BE"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_dampen"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"6B084B77013AE5C8"
+			]
+			id: "60CB5B86D7A88FFD"
+			tasks: [{
+				id: "082B8243702ED30D"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_ender_inventory"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"6B084B77013AE5C8"
+			]
+			id: "04B827F008CD2D18"
+			tasks: [{
+				id: "3218635363462307"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_conjure_water"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"6B084B77013AE5C8"
+			]
+			id: "7BCD24DD731D7D3B"
+			tasks: [{
+				id: "0DEC13ABD93E132B"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_crush"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"6B084B77013AE5C8"
+			]
+			id: "37683E02E17D77B3"
+			tasks: [{
+				id: "0F40C2FE99971415"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_firework"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"6B084B77013AE5C8"
+			]
+			id: "1048DCE2252131E3"
+			tasks: [{
+				id: "20A6723639DBCF1D"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_exchange"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"6B084B77013AE5C8"
+			]
+			id: "7E5ACFEA9DA9292C"
+			tasks: [{
+				id: "6DE8CB4D24BD0446"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_grow"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"6B084B77013AE5C8"
+			]
+			id: "0C76039DA346E2A5"
+			tasks: [{
+				id: "0ED4968003CBDA81"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_smelt"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"6B084B77013AE5C8"
+			]
+			id: "4880EFB8F6015465"
+			tasks: [{
+				id: "32D76B6283262546"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_cold_snap"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"6B084B77013AE5C8"
+			]
+			id: "5637F3A06634C182"
+			tasks: [{
+				id: "5CC86001F2FBB9BE"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_heal"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"6B084B77013AE5C8"
+			]
+			id: "7B1E99AA3A57B324"
+			tasks: [{
+				id: "444CD4DE4E3467D9"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_explosion"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"6B084B77013AE5C8"
+			]
+			id: "60841ADBD7C99A90"
+			tasks: [{
+				id: "73272E9FA89403D0"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_sentientharm"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"6B084B77013AE5C8"
+			]
+			id: "5326BC363571E6F8"
+			tasks: [{
+				id: "5C2B809B69129E86"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_extend_time"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"6B084B77013AE5C8"
+			]
+			id: "1E21CA4DE397BC89"
+			tasks: [{
+				id: "74223D8F6FA6FBAE"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_wind_shear"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"6B084B77013AE5C8"
+			]
+			id: "6F8794175F049798"
+			tasks: [{
+				id: "1398B83F4C0E4BEB"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_accelerate"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 14.5d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"477DDA7D37F4FCD8"
+			]
+			id: "7C6A1D43CEB0E54F"
+			tasks: [{
+				id: "7E51A85DDE26A69B"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_summon_decoy"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 15.5d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"477DDA7D37F4FCD8"
+			]
+			id: "2064393DB4455FAF"
+			tasks: [{
+				id: "29D1E510B9F1C2E7"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_summon_vex"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 16.5d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"477DDA7D37F4FCD8"
+			]
+			id: "2B668956C33221CC"
+			tasks: [{
+				id: "404BC4A2428E7B14"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_blink"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 17.5d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"477DDA7D37F4FCD8"
+			]
+			id: "0373ABB40B34063E"
+			tasks: [{
+				id: "15E5EA78E6E51034"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_fangs"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 18.5d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"477DDA7D37F4FCD8"
+			]
+			id: "67C07FFC137DB19B"
+			tasks: [{
+				id: "4FCB09AFCD6F0C7C"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_hex"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 14.5d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"477DDA7D37F4FCD8"
+			]
+			id: "4F2B50684831170E"
+			tasks: [{
+				id: "6D0534B9302129F9"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_wither"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 15.5d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"477DDA7D37F4FCD8"
+			]
+			id: "2DA0C49721DECF63"
+			tasks: [{
+				id: "7D780E67A99628CA"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_linger"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 16.5d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"477DDA7D37F4FCD8"
+			]
+			id: "4599597BE2D086BE"
+			tasks: [{
+				id: "1497766FAAA97DAC"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_linger"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 17.5d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"477DDA7D37F4FCD8"
+			]
+			id: "153D2B17CA3CD997"
+			tasks: [{
+				id: "5B34926F48C8F16D"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_orbit"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 18.5d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"477DDA7D37F4FCD8"
+			]
+			id: "2349A67CAE72B177"
+			tasks: [{
+				id: "70258F584F96902E"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_split"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 15.5d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"477DDA7D37F4FCD8"
+			]
+			id: "7EFD3CD82E41A44E"
+			tasks: [{
+				id: "5457C79141D27F0D"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_strength"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 16.5d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"477DDA7D37F4FCD8"
+			]
+			id: "2B95B64D485A7D80"
+			tasks: [{
+				id: "4976D47E770C692A"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_lightning"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 17.5d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"477DDA7D37F4FCD8"
+			]
+			id: "3380416B4B8CEB2D"
+			tasks: [{
+				id: "616D80FE141679E8"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_intangible"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 16.5d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1FB934AD92F2F08A"
+				"477DDA7D37F4FCD8"
+			]
+			id: "437055F07AF546E3"
+			tasks: [{
+				id: "18D644EC53436841"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_glide"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -4.5d
+			id: "00F11CB24813B743"
+			tasks: [{
+				id: "0D15C5A8078DFBC1"
+				type: "item"
+				item: {
+					id: "ars_nouveau:arcane_core"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.0d
+			id: "6F50B15A82CA2761"
+			tasks: [{
+				id: "30BC0195D53FA178"
+				type: "item"
+				item: {
+					id: "ars_nouveau:arcane_pedestal"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 8L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -6.0d
+			id: "20B12F6DAFD7926D"
+			tasks: [{
+				id: "20C894B6DA97BE7C"
+				type: "item"
+				item: {
+					id: "ars_nouveau:enchanting_apparatus"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 4.5d
+			id: "04D3519450310185"
+			tasks: [{
+				id: "264A6BD3840781B9"
+				type: "item"
+				item: {
+					id: "ars_nouveau:mana_bloom_crop"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			dependencies: [
+				"04D3519450310185"
+				"4E879898BA5DE7EC"
+			]
+			id: "7269DC2B3C79B781"
+			tasks: [{
+				id: "71D7BD98A5620603"
+				type: "item"
+				item: {
+					id: "ars_nouveau:mana_fiber"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.5d
+			dependencies: [
+				"7269DC2B3C79B781"
+				"28F70638C9A0106B"
+			]
+			id: "425596FB4EFB27FD"
+			tasks: [{
+				id: "199C1C3CDE793863"
+				type: "item"
+				item: {
+					id: "ars_nouveau:blaze_fiber"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 4.5d
+			dependencies: [
+				"425596FB4EFB27FD"
+				"2D3BACE470F88EEC"
+			]
+			id: "5BD5B2E600FEF343"
+			tasks: [{
+				id: "1E50B947E74C8D89"
+				type: "item"
+				item: {
+					id: "ars_nouveau:end_fiber"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 6.0d
+			dependencies: ["7269DC2B3C79B781"]
+			id: "70979CBBC2210297"
+			tasks: [{
+				id: "727DDFC8D76C77DB"
+				type: "item"
+				item: {
+					id: "ars_nouveau:novice_hood"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 7.0d
+			dependencies: ["7269DC2B3C79B781"]
+			id: "09990F6464A4DE3B"
+			tasks: [{
+				id: "5004576AADF945EE"
+				type: "item"
+				item: {
+					id: "ars_nouveau:novice_robes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 8.0d
+			dependencies: ["7269DC2B3C79B781"]
+			id: "13EF6D807A01EEF8"
+			tasks: [{
+				id: "7E9F21AB64738265"
+				type: "item"
+				item: {
+					id: "ars_nouveau:novice_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 9.0d
+			dependencies: ["7269DC2B3C79B781"]
+			id: "1F19A2C376CF4BE4"
+			tasks: [{
+				id: "24EEC2837BF177BF"
+				type: "item"
+				item: {
+					id: "ars_nouveau:novice_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 6.0d
+			dependencies: [
+				"70979CBBC2210297"
+				"425596FB4EFB27FD"
+			]
+			id: "67A033A8341BBF56"
+			tasks: [{
+				id: "674D931FB50EE0B1"
+				type: "item"
+				item: {
+					id: "ars_nouveau:apprentice_hood"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 6.0d
+			dependencies: [
+				"5BD5B2E600FEF343"
+				"67A033A8341BBF56"
+			]
+			id: "59E945336E220B36"
+			tasks: [{
+				id: "18228091EB1F734D"
+				type: "item"
+				item: {
+					id: "ars_nouveau:archmage_hood"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 7.0d
+			dependencies: [
+				"425596FB4EFB27FD"
+				"09990F6464A4DE3B"
+			]
+			id: "004A8BFC3018DE24"
+			tasks: [{
+				id: "4F0D554D8905B03F"
+				type: "item"
+				item: {
+					id: "ars_nouveau:apprentice_robes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 8.0d
+			dependencies: [
+				"425596FB4EFB27FD"
+				"13EF6D807A01EEF8"
+			]
+			id: "0D5611AB726B976C"
+			tasks: [{
+				id: "1AFA231A0C3176CF"
+				type: "item"
+				item: {
+					id: "ars_nouveau:apprentice_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 9.0d
+			dependencies: [
+				"425596FB4EFB27FD"
+				"1F19A2C376CF4BE4"
+			]
+			id: "4FC9E9806E5F9277"
+			tasks: [{
+				id: "2E338F9797991E07"
+				type: "item"
+				item: {
+					id: "ars_nouveau:apprentice_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 7.0d
+			dependencies: [
+				"004A8BFC3018DE24"
+				"5BD5B2E600FEF343"
+			]
+			id: "42D2A4B9909EABF4"
+			tasks: [{
+				id: "21D62CFF165FCA3A"
+				type: "item"
+				item: {
+					id: "ars_nouveau:archmage_robes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 8.0d
+			dependencies: [
+				"5BD5B2E600FEF343"
+				"0D5611AB726B976C"
+			]
+			id: "1FD54F8668600AA9"
+			tasks: [{
+				id: "5849332627DCEF56"
+				type: "item"
+				item: {
+					id: "ars_nouveau:archmage_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 9.0d
+			dependencies: [
+				"5BD5B2E600FEF343"
+				"4FC9E9806E5F9277"
+			]
+			id: "457A0A05CBE7CDB7"
+			tasks: [{
+				id: "4856AD505B1D074F"
+				type: "item"
+				item: {
+					id: "ars_nouveau:archmage_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: -6.0d
+			dependencies: ["20B12F6DAFD7926D"]
+			id: "3F2CD2BE04852C5A"
+			tasks: [{
+				id: "336F21166FA84F86"
+				type: "item"
+				item: {
+					id: "ars_nouveau:spell_bow"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+						"dungeons_gear:bow": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -11.5d
+			y: -6.0d
+			dependencies: ["3F2CD2BE04852C5A"]
+			id: "29080205087E6CA2"
+			tasks: [{
+				id: "5A20841FA4FAA82C"
+				type: "item"
+				item: {
+					id: "ars_nouveau:pierce_arrow"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: -5.5d
+			dependencies: ["3F2CD2BE04852C5A"]
+			id: "3706C58DBBAA3696"
+			tasks: [{
+				id: "0EF442540701A310"
+				type: "item"
+				item: {
+					id: "ars_nouveau:split_arrow"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: -6.5d
+			dependencies: ["3F2CD2BE04852C5A"]
+			id: "48AB0015807FE30E"
+			tasks: [{
+				id: "118DCF1176511A61"
+				type: "item"
+				item: {
+					id: "ars_nouveau:amplify_arrow"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: -7.0d
+			dependencies: ["20B12F6DAFD7926D"]
+			id: "301478DD1C370765"
+			tasks: [{
+				id: "2BE27C51A8DDBD74"
+				type: "item"
+				item: {
+					id: "ars_nouveau:enchanters_mirror"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: -5.0d
+			dependencies: ["20B12F6DAFD7926D"]
+			id: "1390C890559B1642"
+			tasks: [{
+				id: "797F51CA64903D14"
+				type: "item"
+				item: {
+					id: "ars_nouveau:enchanters_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -7.0d
+			id: "15A0269E0B25DDE5"
+			tasks: [{
+				id: "32B22B5892187C9A"
+				type: "item"
+				item: {
+					id: "ars_nouveau:scribes_table"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -8.5d
+			id: "057E0C1D92A44AB4"
+			tasks: [{
+				id: "694720F406576572"
+				type: "item"
+				item: {
+					id: "ars_nouveau:summoning_crystal"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			id: "192241EBA899A1D5"
+			tasks: [
+				{
+					id: "4F8121981B37EAFC"
+					type: "item"
+					item: {
+						id: "ars_nouveau:green_archwood_sapling"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4C6EB7F20603210F"
+					type: "item"
+					item: {
+						id: "ars_nouveau:blue_archwood_sapling"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "11B22D2EA3B8110B"
+					type: "item"
+					item: {
+						id: "ars_nouveau:red_archwood_sapling"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "28DEBA61F82D04E9"
+					type: "item"
+					item: {
+						id: "ars_nouveau:purple_archwood_sapling"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -1.5d
+			id: "4D3147142822C209"
+			tasks: [{
+				id: "19278241D9E668B2"
+				type: "item"
+				item: {
+					id: "ars_nouveau:green_archwood_log"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: -0.5d
+			id: "66CC366BD3AA99AB"
+			tasks: [{
+				id: "7B526BEF9A2D34CA"
+				type: "item"
+				item: {
+					id: "ars_nouveau:blue_archwood_log"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 0.5d
+			id: "2CFA9D5920030F29"
+			tasks: [{
+				id: "36BC86C64F2FC22F"
+				type: "item"
+				item: {
+					id: "ars_nouveau:red_archwood_log"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 1.5d
+			id: "7702E5F428CBFBFA"
+			tasks: [{
+				id: "0289DCE7E88C80EA"
+				type: "item"
+				item: {
+					id: "ars_nouveau:purple_archwood_log"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+	]
+}
