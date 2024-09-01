@@ -3,5 +3,5 @@ This reposotory is created, because of FTB minecraft quests, in this repository 
 
 # For Commitors
 ## Rewriting your minecraft modpack folder
-
+firstly look if someone has made changes in repository, we are going to work on different quests and quest groups simulaniosly, so that means you as contributor only put your newly finnished thing from your minecraft modpack to this repository, I'll gladly help you my Discord ==> "fantom_360". You can write me there and ask about the files. 
 
